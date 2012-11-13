@@ -1,0 +1,10 @@
+---
+permalink: /posts/:title.html
+pygments: true
+exclude:
+    - README.markdown
+    - public
+    - ~*
+    - .git
+destination: public
+paginate: 5
