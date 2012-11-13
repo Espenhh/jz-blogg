@@ -1,40 +1,27 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if IE 7]>    <html class="ie7 ie" lang="no" class="nojs"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 ie" lang="no" class="nojs"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 ie" lang="no" class="nojs"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="no" class="nojs"> <!--<![endif]-->
+
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="/css/grid_12.css" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/clearfix.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    
-    <title>{{ page.title }} {% if page.title %}| {% endif %} JavaZone Blog</title>
+  <meta charset="utf-8">
+  <title>{{ page.title }} {% if page.title %}| {% endif %} JavaZone Blog</title>
+  <meta name="description" content="Javazone!">
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-    <div class="push-down">
-        <header class="container_12">
-            <hgroup>
-                <h1><a href="/index.html">JavaZone</a></h1>
-                <h2>teh blogz</h2>
-            </hgroup>
-            <nav>
-                <ul>
-                    <li>Meny</li>
-                    <li>Her?</li>
-                </ul>
-            </nav>
-        </header>
+    <div class="header">
+        <div class="logo">
+            <img src="/img/logo.png" />
+        </div>
     </div>
-    
-    {{ content }}
+    <div id="page">
+        <div class="boxed">
+            {{ content }}
+        </div>
+    </div>
 
-    <div id="footer-wrapper">
-        <footer id="page-footer" class="container_12">
-            <p>JavaBin &copy; {{'now' | date: '%Y'}}</p>
-        </footer>
-    </div>
-    
 </body>
 </html>
-
