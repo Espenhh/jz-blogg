@@ -97,3 +97,7 @@ a {
 a:hover {
 	color: rgba(255,1,241,1);
 }
+
+ul.posts {
+	list-style-type: none;
+}
