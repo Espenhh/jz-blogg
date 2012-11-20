@@ -7,4 +7,4 @@ exclude:
     - ~*
     - .git
 destination: public
-paginate: 5
+paginate: 10
