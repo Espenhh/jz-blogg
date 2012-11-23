@@ -1,9 +1,10 @@
-JavaZone Blog
--------------
+# JavaZone Blog
+
+Innstruksjoner til hvordan publisere innhold på JavaZone-bloggen.
 
 ## Oppsett
 
-Klon først dette repository.
+Klon først dette repositoryet.
 
     git clone git@github.com:Espenhh/jz-blogg.git
 
