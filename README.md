@@ -12,6 +12,7 @@ Så må vi legge bloggen til som en `git remote`.
 
     cd jz-blogg
     git remote add test javabin@javazone.espenhh.com:/home/javabin/git/jz-blog/test
+    git remote add prod javabin@javazone.espenhh.com:/home/javabin/git/jz-blog/prod
 	
 For å kunne se hvordan ting ser ut lokalt må også `jekyll` installeres.
 
@@ -52,6 +53,11 @@ For å publisere innholdet til bloggen, commit og push bloggposten.
 
     git add _posts/2012-12-12-min-kule-bloggpost.md
     git commit -m "skrev en kul bloggpost"
+
+    # Til test.blog.javazone.no:
 	git push test
+
+    # Til blog.javazone.no:
+    git push prod
 
 For å publisere må du har ssh-tilgang. Hvis du ikke har dét, snakk med noen i javaBin som kan ordne.
