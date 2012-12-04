@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul class="posts">
-{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<li>
 	    <article class="post">
 			<h1 class="post-title">
@@ -22,5 +22,22 @@ layout: default
 		    </div>
 	    </article>
 	</li>
-{% endfor %}
+	<li class="clearfix">
+	{% endfor %}
+		{% if paginator.next_page %}
+			<nav class="older-posts">
+		    	<a href="./page{{paginator.next_page}}">Older posts</a>
+			</nav>
+		{% endif %}
+
+		{% if paginator.previous_page %}
+			<nav class="newer-posts"> 
+			    {% if paginator.previous_page == 1 %}
+			        <a href="/">Newer posts</a>
+			    {% else %}
+			        <a href="./page{{paginator.previous_page}}">Newer posts</a>
+			    {% endif %}
+			</nav>
+		{% endif %}
+	</li>
 </ul>

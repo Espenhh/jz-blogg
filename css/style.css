@@ -102,3 +102,7 @@ a:hover {
 ul.posts {
 	list-style-type: none;
 }
+
+.newer-posts {
+	float: right;
+}
