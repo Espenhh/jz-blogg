@@ -13,6 +13,8 @@ Hello.
 
 This is where the new JavaZone blog will reside.
 There is no content here yet -- sorry about that.
-Hopefully that'll change soon, though!
+Hopefully it will change soon, though!
+
+<!--more-->
 
 In the mean time, check out [next years JavaZone](http://jz13.java.no) or view some of the [previous years videos](http://video.javazone.no/).
