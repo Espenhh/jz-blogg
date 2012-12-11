@@ -106,3 +106,9 @@ ul.posts {
 .newer-posts {
 	float: right;
 }
+
+.pagination {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
